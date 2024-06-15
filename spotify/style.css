@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+body{
+    background-color: azure;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+nav {
+    font-family: "Playwrite FR Moderne", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+    
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 6px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.container{
+    background-color: black;
+    color: aliceblue;
+    font-family:"Playwrite FR Moderne", cursive ;
+    min-height: 50vh;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 20px;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom:0;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    margin-top: 10px;
+}
+#myProgress{
+    width: 120vh;
+    height: 3px;
+    text-align: center;
+}
