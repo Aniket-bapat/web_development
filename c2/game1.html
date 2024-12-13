@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    #btn{
+        display: inline-block;
+        text-decoration: none;
+        padding: 8px 30px;
+        border-radius: 40px;
+        background: #fff;
+        color: black;
+        
+    }
+    .logo{
+    color: #050404;
+    font-weight: 700;
+    border-radius: 50 px 50px;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPRITE ANIMATION</title>
+    <link rel="stylesheet" href="game1.css">
+</head>
+<body>
+    <button type="button" ><a href="home.html" class="logo">back</a></button>
+    <h1 style="display:block; left: 50%;"> THIS IS HOW FRAME ANIMATION WORKS IN 2D GAMES</h1>
+    <br
+    >
+
+    <canvas id="canvas1">Try different browser</canvas>
+    <!-- canvas is used to add graphics to page via js which makes developing games ez-->
+    <select id="animation" name="animation" style="border-radius: 20px; text-decoration: none; align-items: center;">
+        <option value="ideal">ideal</option>
+        <option value="jump">jump</option>
+        <option value="fall">fall</option>
+        <option value="run">run</option>
+        <option value="dizzy">dizzy</option>
+        <option value="sit">sit</option>
+        <option value="roll">roll</option>
+        <option value="bite">bite</option>
+        <option value="ko">ko</option>
+        <option value="getHit">getHit</option>
+    </select>
+    <script src="game1.js"></script>
+</body>
+</html>

@@ -3,13 +3,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rock paper scissors</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <p>Rock paper scissors</p>
+    <p class="title">Rock paper scissors</p>
     <br>
-    <button onclick="callme()">Rock</button>
-    <button onclick="callme()">Paper</button>
-    <button onclick="callme()">Scissors</button>
+    <div class="game">
+    <button class="rps" onclick="playGame('Rock')">Rock</button>
+    <button class="rps" onclick="playGame('Paper')">Paper</button>
+    <button class="rps" onclick="playGame('Scissors')">Scissors</button>
+    <button id="res"onclick="resetScore()">reset</button></div>
+    <br>
+    <!--<h2 id="player">Players choice : </h2>
+    <h2 id="computer">computer choice : </h2> -->
+
+    <p class="score">Score:</p>
     <script src="index.js"></script>
+    <div class="footer"><button id="sub" onclick="sub()">Subscribe</button></div>
 </body>
 </html>
